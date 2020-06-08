@@ -1,0 +1,128 @@
+/*  Geral
+**********************/
+
+/* Aqui se remove a margem de todo o documento html, define-se a fonte, o plano de fundo, a cor e a altura da pagina */
+
+html, body{
+	height: 100%;
+	margin: 0;
+	font-family: Helvetica, Arial, Sans-Serif;
+	background-color: #161616;
+	color: white; 
+}
+/* Aqui colocamos a imagem da segunda parte da pág, daídefinimos altura, posição, não deverá se repetir mas deverá cobrir todo o espaço
+da seção */
+.section-background{
+	background-position: center;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	background-image: url('./images/bar_interior.jpg');
+}
+.section-container{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba( 0, 0, 0, 0.65);
+}
+
+.section-title{
+	
+	text-align: center;
+	font-size: 30px;
+	
+}
+.section-text{
+	padding:25px;
+	margin: 0;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.7);
+	text-align: top;
+	}
+
+	.ancora{
+		position: absolute;
+		top: -65px;
+	}	
+
+/*  Header
+**********************/
+.main-header{
+	position: relative;
+}
+/* Aqui defini-se que o video deverá preencher 100% da pág */
+.header-video{
+	width: 100%;
+}
+/* Aqui é onde fixamos o cabeçalho da página, atribuimos uma cor de fundo e que quando a pág rolar, 
+os itens ficarão por baixo do cabeçalho */
+.navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #3b3b3b;
+	z-index: 100; 
+}
+/* Aqui removemos a margem da lista */
+.navigation-list{
+	padding: 0;
+}
+/* Aqui colocamos os itens da lista em uma única linha, separados por 15 pixels de distancia */
+.navigation-list-item{
+	display: inline-block;
+	padding: 15px;
+}
+/* Aqui mudamos a cor da fonte dos itens da lista e retiramos o sublinhado */
+.nav-link{
+	color: white;
+	text-decoration: none;
+}
+/* Aqui se muda a cor quando o mouse é passado por cima do link */
+.nav-link:hover{
+	color: #0079d0;
+}
+/* Aqui dizemos que a imagem da logo deverá sempre ficar ao centro, nunca ultrapassando o limite de 90% da tela */
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	max-width: 90%;
+}
+
+/*  O lugar
+**********************/
+.lugar{
+		background-image: url('./images/bar_interior.jpg');
+
+	
+}
+/*  Nossos Drinks
+**********************/
+.drinks{
+	background-image: url('./images/drinks_background.jpg');
+	}
+
+	.drink-image{
+		max-width: 20%;
+		margin-top: -20px;
+		}
+		
+/*  Footer
+**********************/
+.main-footer{
+		position: relative;
+		padding: 20px;
+		text-align: 
+}
+.section-footer{
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	min-width: 250px;
+}
+
