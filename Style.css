@@ -117,7 +117,7 @@ os itens ficarão por baixo do cabeçalho */
 .main-footer{
 		position: relative;
 		padding: 20px;
-		text-align: 
+		text-align: center;
 }
 .section-footer{
 	display: inline-block;
